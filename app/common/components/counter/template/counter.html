@@ -1,0 +1,13 @@
+<div class="counter">
+  <nts-button
+    (onClick)="actions.increment()"
+  >
+    Increment
+  </nts-button>
+  {{ counter | async}}
+  <nts-button
+    (onClick)="actions.decrement()"
+  >
+    Decrement
+  </nts-button>
+</div>

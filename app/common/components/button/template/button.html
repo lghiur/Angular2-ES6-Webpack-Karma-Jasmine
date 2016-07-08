@@ -1,0 +1,7 @@
+<button
+  [id]="bid"
+  (click)="handleClick($event)"
+  type="{{type || 'button'}}"
+  class="btn {{className}}">
+  <ng-content></ng-content>
+</button>
